@@ -1,0 +1,3 @@
+[submodule "pi/max30102"]
+	path = pi/max30102
+	url = https://github.com/doug-burrell/max30102
