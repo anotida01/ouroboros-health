@@ -1,0 +1,59 @@
+/* document descriptions */
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+html{
+    position: relative;
+    min-height: 100;
+}
+/* end document descriptions */
+
+/* footer descriptions */
+footer{
+    position: relative;
+    margin-top: 9rem;
+    text-align: center;
+}
+
+.footer_text{
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: grey
+}
+/* end footer descriptions */
+
+
+/* sidebar descriptions */
+.links{
+    margin-right: 1rem;
+    font-size: 1.8rem;
+    color: grey;
+}
+#profile{
+    border: 0.15rem solid rgb(163, 163, 163);
+    border-radius: 50%;
+}
+#intro{
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+/* end sidebar descriptions */
+
+
+/* text formatting*/
+.title{
+    margin-bottom: 0;
+}
+
+.subheading{
+    text-decoration: underline;
+}
+
+.post{
+    text-decoration: none;
+    color: black;
+}
+
+/* end text formatting*/
