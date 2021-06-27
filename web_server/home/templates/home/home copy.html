@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="2" >
+    <link rel="stylesheet" href="{% static 'css/ouroboroscss.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
+    <title>Ouroboros</title>
+</head>
+
+<body>
+     <div class="container" style="margin-top: 10rem">
+        <div class="row">
+            <table>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>BPM</th>
+                    <th>spO2</th>
+                </tr>
+                <tr>
+                    <th>{{timestamp}}</th>
+                    <th>{{bpm}}</th>
+                    <th>{{spO2}}</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
